@@ -3,7 +3,7 @@ data:extend({
     {
       type = "technology",
       name = "bioflux-productivity",
-      icons = util.technology_icon_constant_recipe_productivity("__bioflux-productivity__/graphics/technology/scrap-recycling-productivity.png"),
+      icons = util.technology_icon_constant_recipe_productivity("__bioflux-productivity__/graphics/technology/bioflux-productivity.png"),
       icon_size = 256,
       effects =
       {
@@ -28,7 +28,8 @@ data:extend({
         time = 60
       },
       max_level = "infinite",
-      upgrade = true
+      upgrade = true,
+      essential = false 
     }
   
   })
