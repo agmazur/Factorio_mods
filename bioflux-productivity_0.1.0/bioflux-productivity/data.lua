@@ -1,9 +1,9 @@
-require("util")
+
 data:extend({
     {
       type = "technology",
-      name = "spaceship-scrap-recycling-productivity",
-      icons = util.technology_icon_constant_recipe_productivity("__secretas__/graphics/technology/scrap-recycling-productivity.png"),
+      name = "bioflux-productivity",
+      icons = util.technology_icon_constant_recipe_productivity("__bioflux-productivity__/graphics/technology/scrap-recycling-productivity.png"),
       icon_size = 256,
       effects =
       {
@@ -13,7 +13,7 @@ data:extend({
           change = 0.1
         }
       },
-      prerequisites = {"Bioflux", "production-science-pack"},
+      prerequisites = {"bioflux", "production-science-pack"},
       unit =
       {
         count_formula = "2^L*600",

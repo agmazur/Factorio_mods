@@ -4,6 +4,6 @@
   "title": "Bioflux productivity",
   "author": "ag_tasher",
   "factorio_version": "2.0",
-  "dependencies": ["base >= 2.0"],
+  "dependencies": ["base >= 2.0","space-age"],
   "description": "This mod adds productivity research for bioflux crafting recepy"
 }
